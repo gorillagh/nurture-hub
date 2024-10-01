@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
@@ -6,22 +6,36 @@
   text-decoration: none;
   border: none;
 }
+body {
+  font-family: "Poppins";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu";
+}
+
+button {
+  font-family: "Poppins";
+}
+
 .container {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   /* background-color: black; */
 }
 
-.btn-primary{
+.btn-primary {
   padding: 0.8rem 1.2rem;
   color: #fff;
-  background-color: #11CA9C;
+  background-color: #11ca9c;
   border-radius: 30px;
   font-weight: bold;
+  font-size: 1rem;
 }
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: #2ce0b3;
-  
 }
-
-

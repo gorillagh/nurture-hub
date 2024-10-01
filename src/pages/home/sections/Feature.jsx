@@ -1,4 +1,3 @@
-import React from "react";
 import "./feature.css";
 
 const features = [
@@ -27,11 +26,15 @@ const features = [
 
 const Feature = () => {
   return (
-    <section id="hero-section">
-      <div className="feature-section">
+    <section id="feature-section">
+      <div className="features-container">
         {features.map((feature, index) => {
           return (
-            <div className="feature-card" style={{backgroundColor:feature.backgroundColor}}>
+            <div
+              key={index}
+              className="feature-card"
+              style={{ backgroundColor: feature.backgroundColor }}
+            >
               <i>{feature.icon}</i>
               <h3>{feature.title}</h3>
               <p>{feature.description}</p>
