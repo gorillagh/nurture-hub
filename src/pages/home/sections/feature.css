@@ -1,0 +1,21 @@
+#hero-section{
+    /* position: relative !important; */
+    /* height: 50vh; */
+    z-index: 2 !important;
+}
+.feature-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    /* position: absolute; */
+    /* top: -50px; */
+    /* z-index: 5 !important; */
+}
+.feature-card{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    color: white;
+}
+
