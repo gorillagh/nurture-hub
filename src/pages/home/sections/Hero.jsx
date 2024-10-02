@@ -7,8 +7,10 @@ import {
   FaPlay,
 } from "react-icons/fa";
 
+
 import "../sections/hero.css";
 import { useEffect } from "react";
+import Feature from "./Feature";
 
 const Hero = () => {
   // useEffect to handle scroll event
@@ -116,6 +118,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>

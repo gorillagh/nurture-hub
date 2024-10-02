@@ -1,0 +1,45 @@
+#offerings{
+padding: 5rem 0;
+/* background-color: #dcf8f1; */
+}
+
+.offerings-header{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.offerings-header h2{
+    color: #0FB78D;
+    font-size: 2rem;
+}
+
+.offerings-header hr{
+    display: block;
+    border: 2px solid #EC661F;
+    width: 10%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+    text-align: center;
+}
+
+.offerings-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    row-gap: 50px;
+    margin: 3rem 0;
+}
+
+.offering-card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.offering-card h4{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #515151;
+}
